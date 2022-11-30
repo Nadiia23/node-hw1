@@ -18,7 +18,6 @@ const {
   addContact,
 } = require("./contacts");
 
-// TODO: рефакторить
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
